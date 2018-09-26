@@ -1,0 +1,162 @@
+/*
+    Name: Crystal Buckneberg
+    Date: 10/19/2017
+    Project: Updating Southeast Tech AITP Site
+*/
+*,
+*::before,
+*::after {
+	padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  	-ms-overflow-style: scrollbar;
+}
+
+nav {
+	padding-left: 0;
+  	margin-bottom: 0;
+  	list-style: none;
+	background: #ffe340;
+	border-radius: 0.3rem;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	background-color: darkblue;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+    color: black;
+}
+
+section {
+	padding: 1rem;
+	background-color: #E9E8DF;
+	border-radius: 0.3rem;
+}
+
+article {
+	padding: 1rem;
+}
+
+footer {
+	background: #ffe340;
+	text-align: center;
+	border-radius: 0.3rem;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	border-radius: 2px;
+}
+
+table, tr, th, td {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.header {
+	background: black;/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #40b4e5, #ec3429); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #40b4e5, #ec3429); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #40b4e5, #ec3429); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #40b4e5, #ec3429);
+}
+
+.navli {
+	display: block;
+  	padding: 0.5rem 1rem;
+	float: right;
+}
+
+.nav-link {
+  display: block;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  float: left;
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: #40b4e5;
+  border-color: #ec3429;
+}
+
+.txtcenter {
+	text-align: center;
+}
+
+.txtright {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.rotate90 {
+	transform: rotate(90deg);
+}
+
+.rotate270 {
+	transform: rotate(270deg);
+}
+
+#center {
+	width: 801px;
+	height: 601px;
+	margin: auto;
+}
+
+#underline {
+	text-decoration: underline;
+}
+
+.img {
+	padding: 5px;
+	height: 210px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.video {
+	margin: auto;
+	width: 965px;
+	border: 0px;
+	padding: 5px;
+}
+
+a.link {
+	text-decoration: underline;
+	color: #40b4e5;
+}
